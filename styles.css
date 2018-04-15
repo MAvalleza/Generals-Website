@@ -1,0 +1,228 @@
+
+.page-wrap{
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	text-decoration: underline;
+}
+.site-header{ /*container*/
+	display: block;
+	background-color: black;
+	height: 130px;
+	width: 100%;
+	border-bottom: 4px solid #ff9800;
+	position: relative;
+	margin-top: 0;
+}
+.header-logo-container{
+	position: absolute;
+	height: 100px;
+	width: 272px;
+	left: 30px;
+	top: 10px;
+}
+.header-logo{
+	background-image: url("pics/zh-logo-final.png");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100%;
+}
+.header-text{
+	position: absolute;
+	left: 70%;
+	top:30px;
+}
+.gen101{
+	color: #fff;
+	margin:0;
+	font-family: 'Segoe UI';
+	font-size: 50px;
+	letter-spacing: 6px;
+	text-align: right;
+	font-weight: bold;
+}
+#navigation{
+	background-color: #2b3f67;
+	width: 100%;
+	height:44px;
+	text-align: center;
+}
+#navigation p{
+	margin: 0;
+	word-spacing: 35px;
+	border-bottom: 0;
+	padding-top:5px;
+}
+.navitem{
+	font-size:20px;
+	font-family: 'Segoe UI';
+	text-decoration: none;
+	color: white;
+	border-radius: 4px;
+
+}
+.navitem:hover{
+	background-color: #1c2538;
+}
+.banner{ /*container*/
+	background-color: black;
+	height: 350px;
+	width: 100%;
+}
+.bannerimage{
+	width: 100%;
+	height: 100%;
+	background-image: url("pics/maxresdefault.jpg");
+	background-position: center;
+	background-size: cover;
+}
+.bannerimage h1{
+	margin:0;
+}
+.bannertext{ /*container*/
+	background-color: black;
+	width: 100%;
+	height: 60px;
+}
+.bannertext p{
+	color: white;
+	padding-top: 10px;
+	padding-left: 20px;
+	margin: 0;
+	font-size: 25px;
+	font-family: 'Segoe UI';
+}
+.lowerborder{
+	background-color: #2b3f67;
+	width: 100%;
+	height: 25px;
+	border-bottom: 4px solid #ff9800;
+}
+.home-container{
+	display: block;
+	width: 100%;
+	height: 320px;
+	position: relative;
+}
+.usa-container{
+	background-color: #0b202d;
+}
+.home-army-right{
+	position: absolute;
+	left: 500px;
+	bottom: 230px;
+	color: white;
+	font-family: 'Arial';
+	letter-spacing: 7px;
+	font-size: 20px;
+}
+.home-army-left{
+	position: absolute;
+	left: 110px;
+	bottom: 230px;
+	color: white;
+	font-family: 'Arial';
+	letter-spacing: 7px;
+	font-size: 20px;
+}
+.army-desc-right{
+	position: absolute;
+	left:500px;
+	bottom: 90px;
+	color: white;
+	font-size: 15px;
+	font-family: 'Bahnschrift';
+	font-weight: 300;
+	line-height: 30px;
+	text-align: justify;
+	margin-right: 60px;
+}
+.army-desc-left{
+	position: absolute;
+	left:50px;
+	bottom: 50px;
+	color: white;
+	font-size: 15px;
+	font-family: 'Bahnschrift';
+	font-weight: 300;
+	line-height: 30px;
+	text-align: justify;
+	margin-left: 60px;
+	margin-right: 500px;
+}
+.left-logo-container{
+	position: relative;
+	left: 110px;
+	top: 30px;
+	width: 250px;
+	height: 250px;
+}
+
+.china-container{
+	background-color:#381008;
+}
+.right-logo-container{
+	position: absolute;
+	left: 80%;
+	top: 30px;
+	width: 250px;
+	height: 250px;
+}
+.china-logo{
+	background-image: url("pics/chinalogo.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+.gla-container{
+	background-color: #0d2d05;
+}
+.gla-logo{
+	background-image: url("pics/glalogo.jpg");
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height:100%;
+}
+.footer-container{
+	display: flex;
+	border-top: 4px solid #ff9800;
+	width: 100%;
+	height: 150px;
+	background-color: #262323;
+	position: relative;
+	justify-content: center;
+}
+/*.pic-almond-container{
+	position: absolute;
+	left: 110px;
+	top: 40px;
+	width: 100px;
+	height: 100px;
+}
+.pic-almond{
+	background-image: url("pics/IMG_1483.JPG");
+	background-position: center;
+	background-size: cover;
+	transform: rotate(90deg);
+	width: 100%;
+	height:80%;
+}*/
+.footer-text{
+	position: absolute;
+	top:30px;
+	right: 40%;
+	color: white;
+	font-size: 15px;
+	font-family: 'Bahnschrift';
+	line-height: 20px;
+	text-align: center;
+}

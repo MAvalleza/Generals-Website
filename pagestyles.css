@@ -1,0 +1,184 @@
+.usa-banner{
+	background-image: url("pics/Snap92_1.jpg");
+}
+.china-banner{
+	background-image: url("pics/CCGen_China_base_defense.jpg");
+}
+.gla-banner{
+	background-image: url("pics/gla_new_scud_goo1.jpg");
+}
+.main-logo-position{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 90px;
+	
+}
+.usa-logo-position{
+	background-color: #1b242d;
+}
+.china-logo-position{
+	background-color: #210f0c;
+}
+.gla-logo-position{
+	background-color: #1a2b16;
+}
+
+.main-logo-container{
+	position: absolute;
+	height: 250px; 
+	width: 250px;
+	background-color: black;
+	top: 400px;
+	border-radius: 10px;
+}
+.main-logo{
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	border-radius: 10px;
+	border-color: white;
+
+}
+.main-logo-usa{
+	background-image: url("pics/usalogo.jpg");
+}
+.main-logo-china{
+	background-image: url("pics/chinalogo.jpg");
+}
+.main-logo-gla{
+	background-image: url("pics/glalogo.jpg");
+}
+.title-container{
+	width: 100%;
+	height: 80px;
+	
+}
+.usa-title{
+	background-color: #1b242d;
+}
+.china-title{
+	background-color: #210f0c;
+}
+.gla-title{
+	background-color: #1a2b16;
+}
+.army-title{
+	margin: 0;
+	position: relative;
+	top: 30px;
+	text-align: center;
+	color: white;
+	font-family: 'Arial';
+	letter-spacing: 8px;
+	font-size: 30px;
+	font-weight: bold;
+	z-index: 1;
+}
+.generals-container{
+	display: flex;
+	height: 120px;
+	width: 100%;
+	background-color: black;
+	margin-top: 0;
+}
+.gen{
+	position: relative;
+	left: 40%;
+	top: 0px;
+	width: 120px;
+	height: 120px;
+	border-radius: 10px;
+}
+.info-container{
+	display: flex;
+	position: relative;
+	height: 300px;
+	width: 100%;
+	justify-content: center;
+
+}
+.usa-info{
+	background-color:  #0b202d;
+}
+.china-info{
+	background-color: #381008;
+}
+.gla-info{
+	background-color: #0d2d05;
+}
+.home-info{
+	background-color: black;
+}
+.information{
+	position: absolute;
+	color: white;
+	font-size: 18px;
+	font-family: 'Yu Gothic';
+	font-weight: 400;
+	line-height: 25px;
+	text-align: center;
+	margin-right: 95px;
+	margin-left: 40px;
+	margin-top: 60px;
+}
+.usa-geninfo{
+	top: 80px;
+	line-height: 20px;
+}
+.gla-geninfo{
+	top:100px;
+	line-height: 20px;
+}
+ul {
+	position: absolute;
+	left: 450px;
+	bottom: 50px;
+	color: white;
+	font-size: 15px;
+	font-family: 'Bahnschrift';
+	font-weight: 300;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+.thrax{
+	bottom: 90px;
+}
+.usa-first{
+	background-color: #1b242d;
+}
+.usa-second{
+	background-color: #0b202d;
+}
+.china-first{
+	background-color: #210f0c;
+}
+.china-second{
+	background-color: #381008;
+}
+.gla-first{
+	background-color: #1a2b16;
+	height: 450px;
+}
+.gla-second{
+	background-color: #0d2d05;
+	height: 450px;
+}
+.gla-firsttitle{
+	position: absolute;
+	left: 500px;
+	top:50px;
+	color: white;
+	font-family: 'Arial';
+	letter-spacing: 7px;
+	font-size: 20px;
+}
+.gla-pic-container{
+	position: relative;
+	left: 110px;
+	top: 70px;
+	width: 270px;
+	height: 270px;
+}
