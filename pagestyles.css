@@ -78,15 +78,30 @@
 }
 .generals-container{
 	display: flex;
+	position: relative;
+	justify-content: center;
 	height: 120px;
 	width: 100%;
 	background-color: black;
 	margin-top: 0;
 }
-.gen{
-	position: relative;
-	left: 40%;
-	top: 0px;
+.gen1{
+	position: absolute;
+	left: 36%;
+	width: 120px;
+	height: 120px;
+	border-radius: 10px;
+}
+.gen2{
+	position: absolute;
+	left: 45%;
+	width: 120px;
+	height: 120px;
+	border-radius: 10px;
+}
+.gen3{
+	position: absolute;
+	left: 54%;
 	width: 120px;
 	height: 120px;
 	border-radius: 10px;
